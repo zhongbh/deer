@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+@media screen and (max-width: 1646px) {
+	.top-div {
+		font-size:48px;
+	}
+}
+@media screen and (max-width: 1371px) {
+	.top-div {
+		font-size:40px;
+	}
+}
+@media screen and (max-width: 1150px) {
+	.top-div {
+		font-size:32px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	body {
+		background-image:url(/static/img/minsgb.png)
+	}
+	.top-div {
+		font-size:24px;
+	}
+	#topDiv {
+		display:none;
+	}
+	.top-div-groundback {
+		display:none;
+	}
+	.left-div {
+		display:none;
+	}
+	.line_img {
+		width:500px;
+	}
+	.min-screen-bu {
+		display:block;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.line_img {
+		display:none;
+	}
+}
